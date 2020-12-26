@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pannellum 360 Viewer</title>
+
+        <!-- Load script Pannellum dari CDN -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
+        <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+
+        <!-- Menentukan tinggi image 360 -->
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            #pannellum-image-360 {
+                height: 480px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="pannellum-image-360"></div>
+        <script>
+            // parameter pertama adalah id (target) element
+            // parameter kedua adalah option nya
+            pannellum.viewer('pannellum-image-360', {
+                type: 'equirectangular',
+                panorama: 'https://pannellum.org/images/alma.jpg'
+            });
+        </script>
+    </body>
+</html>
