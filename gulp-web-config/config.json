@@ -1,0 +1,25 @@
+{
+    "core": {
+        "scss": [
+            "scss/config.scss",
+            "scss/global.scss"
+        ],
+        "js": [
+            "js/config.js"
+        ]
+    },
+    "pages": {
+        "login": {
+            "scss": [
+                "scss/pages/login.scss"
+            ],
+            "js": []
+        },
+        "index": {
+            "scss": [
+                "scss/pages/index.scss"
+            ],
+            "js": []
+        }
+    }
+}

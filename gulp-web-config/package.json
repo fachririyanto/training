@@ -1,0 +1,19 @@
+{
+  "name": "gulp-web-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fachri Riyanto",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-uglify-es": "^2.0.0",
+    "node-sass": "^4.14.1"
+  }
+}
