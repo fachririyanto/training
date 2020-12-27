@@ -1,0 +1,10 @@
+.module-container {
+    display: block;
+    padding: 48px 0;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    max-width: 960px;
+}
